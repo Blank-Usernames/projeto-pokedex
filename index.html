@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="src/style/global.css">
     <link rel="stylesheet" href="src/style/reset.css">
     <link rel="stylesheet" href="src/style/card.css">
+    <link rel="stylesheet" href="src/style/list.css">
+    <link rel="stylesheet" href="src/style/responsive.css">
     <title>Pokédex</title>
 </head>
 
@@ -14,7 +16,7 @@
     <main>
         <div class="pokemon-cards">
             <!-- BULBASAUR -->
-            <div class="pokemon-card">
+            <div class="pokemon-card grass-type open" id="bulbasaur-card">
                 <div class="card-top">
                     <div class="details">
                         <h2>Bulbasaur</h2>
@@ -52,7 +54,7 @@
             </div>
 
             <!-- CHARMANDER -->
-            <div class="pokemon-card">
+            <div class="pokemon-card fire-type" id="charmander-card">
                 <div class="card-top">
                     <div class="details">
                         <h2>Charmander</h2>
@@ -90,7 +92,7 @@
             </div>
 
             <!-- SQUIRTLE -->
-            <div class="pokemon-card">
+            <div class="pokemon-card water-type" id="squirtle-card">
                 <div class="card-top">
                     <div class="details">
                         <h2>Squirtle</h2>
@@ -128,7 +130,7 @@
             </div>
 
             <!-- PIKACHU -->
-            <div class="pokemon-card">
+            <div class="pokemon-card electric-type" id="pikachu-card">
                 <div class="card-top">
                     <div class="details">
                         <h2>Pikachu</h2>
@@ -166,7 +168,7 @@
             </div>
 
              <!-- GENGAR -->
-            <div class="pokemon-card">
+            <div class="pokemon-card ghost-type" id="gengar-card">
                 <div class="card-top">
                     <div class="details">
                         <h2>Gengar</h2>
@@ -204,7 +206,7 @@
             </div>
 
              <!-- GYARADOS -->
-            <div class="pokemon-card">
+            <div class="pokemon-card water-type" id="gyarados-card">
                 <div class="card-top">
                     <div class="details">
                         <h2>Gyarados</h2>
@@ -242,7 +244,7 @@
             </div>
 
              <!-- DRAGONITE -->
-            <div class="pokemon-card">
+            <div class="pokemon-card dragon-type" id="dragonite-card">
                 <div class="card-top">
                     <div class="details">
                         <h2>Dragonite</h2>
@@ -282,7 +284,7 @@
 
         <nav class="listagem">
             <ul>
-                <li class="pokemon" id="bulbasaur">
+                <li class="pokemon ativo" id="bulbasaur">
                     <img src="src/images/cabeca-bulbasaur.png" alt="Bulbasaur-Profile">
                     <span>Bulbasaur</span>
                 </li>

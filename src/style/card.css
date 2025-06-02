@@ -1,4 +1,5 @@
 .pokemon-card {
+    display: none;
     border-radius: 10px;
     box-shadow: 0px 7px 29px 0px rgba(100,100,11,0.2);
 }
@@ -37,8 +38,58 @@
 
 .pokemon-card .card-info {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #FFFFFF;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
     padding: 80px 30px 50px;
     margin-top: -70px;
+}
+
+.pokemon-card .card-info h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6B727A;
+}
+
+.pokemon-card .card-info .status ul li {
+    font-size: 15px;
+    border-bottom: 1px solid #6B727A;
+    padding: 0px 0px 5px;
+    margin-bottom: 5px;
+}
+
+.pokemon-card .card-info .ability ul li {
+    font-size: 15px;
+    border-bottom: 1px solid #6B727A;
+    padding: 0px 0px 5px;
+    margin-bottom: 5px;
+}
+
+.open {
+    display: block;
+}
+
+.grass-type {
+    background-color: #5bb34a;
+}
+
+.fire-type {
+    background-color: #be2323;
+}
+
+.water-type {
+    background-color: #57bde6;
+}
+
+.electric-type {
+    background-color: #f0f023;
+}
+
+.ghost-type {
+    background-color: #733ec7;
+}
+
+.dragon-type {
+    background-color: #3930bd;
 }
